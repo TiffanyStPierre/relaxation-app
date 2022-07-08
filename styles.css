@@ -18,7 +18,7 @@ body {
 
 h1 {
     font-size: 120px;
-    color: #010f1c;
+    color: #031d22;
     font-weight: bold;
 }
 
@@ -32,16 +32,17 @@ header {
 footer {
     font-family: 'Oxygen', sans-serif;
     font-size: 20px;
-    color:#010f1c;
+    color:#031d22;
     font-weight: bold;
     width: 100%;
     text-align: center;
     margin-bottom: 10px;
+    margin-top: 50px;
 }
 
 footer a {
     text-decoration: none;
-    color: #4b4e50;
+    color: #1a353a;
     font-weight: bold;
 }
 
@@ -59,13 +60,13 @@ footer a {
 
 .gradient-circle {
     background: conic-gradient(
-        #55b7a4,
-        #4ca493,
-        #60ac9c,
+        #50D5DA,
+        #7CE0DE,
+        #66CDCA,
         #fff,
-        #4ba090,
-        #336d62,
-        #2a5b52
+        #3DB1AE,
+        #0A606F,
+        #076984
     );
 
     height: 320px;
@@ -77,3 +78,13 @@ footer a {
     border-radius: 50%;
 }
 
+.circle {
+    background-color: #0A606F;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 50%;
+}
